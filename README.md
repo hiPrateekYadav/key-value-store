@@ -85,3 +85,7 @@ kubectl delete -f k8s/
 
 Ensure you have a running Redis server accessible to the FastAPI app and the Huey worker. Adjust the Redis configuration in main.py and huey_worker.py accordingly.
 Customize the Kubernetes manifests (k8s/) based on your specific environment and requirements.
+
+### Link
+
+I also deployed the application on a server. I dont know how long i will keep it running but you can access it on : http://20.197.47.122:31787/
